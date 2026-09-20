@@ -1,7 +1,11 @@
+# 0 */4 * * * cd path_to_repo/supabase-poker && path_to_repo/supabase-poker/.venv/bin/python scripts/example_json_script.py >> path_to_repo/supabase-poker/cron.log 2>&1
+
 import requests
 import json
 
-with open("sites.json", "r", encoding="utf-8") as file:
+json_file_name = ... # INSERT YOUR JSON FILE NAME HERE
+
+with open(json_file_name, "r", encoding="utf-8") as file:
     sites = json.load(file)
 
 for site in sites:

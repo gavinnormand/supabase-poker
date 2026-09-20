@@ -1,3 +1,5 @@
+# 0 */4 * * * cd path_to_repo/supabase-poker && path_to_repo/supabase-poker/.venv/bin/python scripts/example_single_script.py >> path_to_repo/supabase-poker/cron.log 2>&1
+
 import requests
 
 project_id = ... # INSERT YOUR PROJECT ID HERE
