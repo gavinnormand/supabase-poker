@@ -1,0 +1,17 @@
+[
+  {
+    "project_id": "your-project-id_1",
+    "table_name": "logs_1",
+    "publishable_key": "your-key_1"
+  },
+  {
+    "project_id": "your-project-id_2",
+    "table_name": "logs_2",
+    "publishable_key": "your-key_2"
+  },
+  {
+    "project_id": "your-project-id_3",
+    "table_name": "logs_3",
+    "publishable_key": "your-key_3"
+  }
+]
