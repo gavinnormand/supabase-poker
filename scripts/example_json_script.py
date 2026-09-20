@@ -3,9 +3,9 @@
 import requests
 import json
 
-json_file_name = ... # INSERT YOUR JSON FILE NAME HERE
+json_file_path = ... # INSERT YOUR JSON FILE PATH HERE
 
-with open(json_file_name, "r", encoding="utf-8") as file:
+with open(json_file_path, "r", encoding="utf-8") as file:
     sites = json.load(file)
 
 for site in sites:
